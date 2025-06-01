@@ -1,0 +1,21 @@
+# ——— Back-end Deep-Learning ———
+torch>=1.13.0              # PyTorch ; choisir la roue CUDA/CPU adaptée
+torchvision>=0.14.0        # modèles pré-entraînés (ResNet-34)
+segmentation-models-pytorch>=0.2.1
+timm>=0.9.0                # encoders supplémentaires (optionnel mais conseillé)
+
+# ——— Pré-traitement & augmentations ———
+albumentations>=1.3.0
+opencv-python-headless>=4.8.0
+scikit-image>=0.21.0       # utilisé par Albumentations pour certaines ops
+scipy>=1.10.0              # dépendance de scikit-image
+numpy>=1.23.0
+pillow>=9.5.0
+
+# ——— Data / I/O ———
+pandas>=1.5.0
+
+# ——— Utilitaires ———
+tqdm>=4.66.0
+matplotlib>=3.8.0          # pour les notebooks d’affichage
+jupyterlab>=4.0.0          # exécution des notebooks .ipynb
